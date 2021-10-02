@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/streadway/amqp"
-	"gotest.tools/assert"
+	"github.com/stretchr/testify/assert"
 )
 
 var localConnection = Connection{
